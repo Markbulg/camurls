@@ -1,5 +1,8 @@
-const request   = require('request')
-,     express   = require('express')
+const host = process.env.HOST || '0.0.0.0';  // Listen on a specific host via the HOST environment variable
+const port = process.env.PORT || 8091;       // Listen on a specific port via the PORT environment variable
+
+const request   = require('request')						//npm install request
+,     express   = require('express')						//npm install express
 ,     app       = express()
 ,     http      = require('http').createServer(app)
 ,     crypto    = require('crypto')
@@ -57,7 +60,7 @@ function server() {
 		}
     });
 	
-	http.listen('3000', () => {
+	http.listen(port, host, () => {
         console.log('Server started');
 	});
 }
