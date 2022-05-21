@@ -5,25 +5,10 @@ const request   = require('request')						//npm install request
 ,     express   = require('express')						//npm install express
 ,     app       = express()
 ,     http      = require('http').createServer(app)
-,     crypto    = require('crypto')
 ,     MjpegDecoder = require('mjpeg-decoder')				//npm install mjpeg-decoder
-,     dotenv    = require('dotenv').config();				//npm i dotenv
+,     dotenv    = require('dotenv').config()				//npm i dotenv
+,     decrypt   = require('./lib/decrypt.js');
 
-const method = process.env.METHOD
-,     secret = process.env.SECRET;
-
-function decrypt(encrypted, hmac) {
-    //const method = 'AES-256-CBC'
-    //,     secret = "My32charPasswordAndInitVectorStr"; //must be 32 char length
-
-    if (crypto.createHmac('md5', secret).update(encrypted).digest('hex') == hmac.value) {
-        const iv        = new Buffer.from(encrypted.substr(0, 24), 'base64').toString()
-        ,     decryptor = crypto.createDecipheriv(method, secret, iv);
-		
-        return decryptor.update(encrypted.substr(24), 'base64', 'utf8') + decryptor.final('utf8');
-    }
-}
-		
 function server() {
 	app.get('/', async (req, res) => {
         const hmac      = {value: req.query.hmac.replaceAll('%2B', '+')}
