@@ -1,5 +1,5 @@
-const method = parseEnvList(process.env.METHOD)
-,     secret = parseEnvList(process.env.SECRET);
+const method = process.env.METHOD
+,     secret = process.env.SECRET;
 
 const request   = require('request')
 ,     express   = require('express')
