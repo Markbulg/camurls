@@ -1,12 +1,13 @@
-const method = process.env.METHOD
-,     secret = process.env.SECRET;
-
 const request   = require('request')
 ,     express   = require('express')
 ,     app       = express()
 ,     http      = require('http').createServer(app)
 ,     crypto    = require('crypto')
-,     MjpegDecoder = require('mjpeg-decoder');				//npm install mjpeg-decoder
+,     MjpegDecoder = require('mjpeg-decoder')				//npm install mjpeg-decoder
+,     dotenv    = require('dotenv').config();				//npm i dotenv
+
+const method = process.env.METHOD
+,     secret = process.env.SECRET;
 
 function decrypt(encrypted, hmac) {
     //const method = 'AES-256-CBC'
