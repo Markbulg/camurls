@@ -1,13 +1,16 @@
+const method = parseEnvList(process.env.METHOD)
+,     secret = parseEnvList(process.env.SECRET);
+
 const request   = require('request')
 ,     express   = require('express')
 ,     app       = express()
 ,     http      = require('http').createServer(app)
 ,     crypto    = require('crypto')
-,     MjpegDecoder = require('mjpeg-decoder');
+,     MjpegDecoder = require('mjpeg-decoder');				//npm install mjpeg-decoder
 
 function decrypt(encrypted, hmac) {
-    const method = 'AES-256-CBC'
-    ,     secret = "My32charPasswordAndInitVectorStr"; //must be 32 char length
+    //const method = 'AES-256-CBC'
+    //,     secret = "My32charPasswordAndInitVectorStr"; //must be 32 char length
 
     if (crypto.createHmac('md5', secret).update(encrypted).digest('hex') == hmac.value) {
         const iv        = new Buffer.from(encrypted.substr(0, 24), 'base64').toString()
