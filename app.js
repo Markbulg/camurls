@@ -11,42 +11,86 @@ const request   = require('request')						//npm install request
 
 function server() {
 	app.get('/', async (req, res) => {
-        const hmac      = {value: req.query.hmac.replaceAll('%2B', '+')}
-		,     encrypted = req.query.src.replaceAll('%2B', '+')
-		,     decrypted = decrypt(encrypted, hmac)
-        ,     src       = decrypted + req.query.r;
- 
+		let src;
+		
+		if (req.query.src.substr(0, 4) !== 'http') {
+            const hmac      = {value: req.query.hmac.replaceAll('%2B', '+')}
+		    ,     encrypted = req.query.src.replaceAll('%2B', '+');
+			
+		    src = decrypt(encrypted, hmac);
+		}
+		else {
+			src = req.query.src;
+		}
+
         //console.log("hmac value: " + hmac.value);
         //console.log("Encrypted: " + encrypted);
 		//console.log("Decrypted: " + decrypted);
 		
-        if (req.query.action === 'snapshot') {
-			//console.log("snapshot of: " + decrypted);
+		const options = {rejectUnauthorized: false, url: src, encoding: null};
+		switch (req.query.action) {
+            case 'snapshot':
+			    //console.log("snapshot of: " + src);
 			
- 			const decoder = MjpegDecoder.decoderForSnapshot(decrypted)
-            ,     frame   = await decoder.takeSnapshot();
+		        const decoder = MjpegDecoder.decoderForSnapshot(src)
+                ,     frame   = await decoder.takeSnapshot();
 			
-            res.send(frame);
-	    }
-	    else {
-			//console.log('src: ' + src);
+                res.send(frame);
+	    
+		        break;
+		    case 'stream':
+			    console.log("src: " + src);
 			
-	        request(
-			    {rejectUnauthorized: false, url: src, encoding: null}, (err, resp, buffer) => {
+			    res.on('close', () => {
+                    console.log('Writes to client closed');
+                });
+
+			    request(options).pipe(res);
+		        /*const req = request(options)
+                    .on('response', function (res) {
+                        if (res.statusCode === 200) {
+                            req.pipe(res);
+                        }
+                    });*/
+				
+			    break;
+	        default:
+			    console.log('src: ' + src);
+                //let startTime = Date.now();
+				
+                request(options, (err, resp, buffer) => {
                     if (!err && resp.statusCode === 200) {
                         res.set("Content-Type", "image/jpeg");
                         res.send(resp.body);
+						
+						//let time = Date.now();
+						//console.log('loadTime: ' + (time - startTime));
                     }
+			        else if (err) {
+			            //console.log('processing error for src: ' + src);
+			            console.log(err.message);
+					    //console.log(err);
+    		        }
 				    else {
-					    console.log('processing error for src: ' + src);
-					    console.log('err: ' + err);
-    				}
+			            console.log('status.code: ' + resp.statusCode);
+    		        }
                 });
+
 		}
+		
+		//res.on('finish', () => {            
+          //  console.log('src finished: ' + src)
+        //})
+
     });
 	
+	http.on('error', (err) => {
+		console.log('Server error');
+		console.log(err.message);
+	});
+	
 	http.listen(port, host, () => {
-        console.log('Server started');
+        console.log('Server started at port: ', port);
 	});
 }
 
