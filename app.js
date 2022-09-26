@@ -1,7 +1,7 @@
 'use strict';
 
 import request from 'request';      				//npm install request
-import got from 'got';                              //npm i got
+//import got from 'got';                              //npm i got
 import express from 'express';						//npm install express
 import * as h from 'http';
 import MjpegDecoder from 'mjpeg-decoder';			//npm install mjpeg-decoder
