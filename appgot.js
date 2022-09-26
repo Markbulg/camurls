@@ -32,8 +32,6 @@ function server() {
 		let src, resp, options;
 		let time, startTime, loadTime;
 		
-		//await delay(10000);
-		
 		if (req.query.src.substr(0, 4) !== 'http') {
             const hmac      = {value: req.query.hmac.replaceAll('%2B', '+')}
 		    ,     encrypted = req.query.src.replaceAll('%2B', '+');
