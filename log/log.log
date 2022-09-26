@@ -1,0 +1,174 @@
+Server started at port:  8091
+Server started at port:  8091
+Server started at port:  8091
+Server started at port:  8091
+src: http://185.240.145.219:55555/webcapture.jpg?command=snap&channel=1?
+src: http://94.190.180.82:85/webcapture.jpg?command=snap&channel=1?
+src: http://94.190.180.82:81/webcapture.jpg?command=snap&channel=1?
+src: http://185.240.145.219:55555/webcapture.jpg?command=snap&channel=2?
+src: http://94.190.180.82:84/webcapture.jpg?command=snap&channel=1?
+src: http://5.53.241.167:1080/webcapture.jpg?command=snap&channel=1?
+src: http://77.71.115.20:7443/axis-cgi/jpg/image.cgi?seq=
+src: http://77.71.47.83:7000/webcapture.jpg?command=snap&channel=1?
+src: http://185.240.145.219:55555/webcapture.jpg?command=snap&channel=3?
+src: http://94.190.180.82:82/webcapture.jpg?command=snap&channel=1?
+src: http://46.254.128.150/webcapture.jpg?command=snap&channel=1?
+src: http://84.43.129.237/webcapture.jpg?command=snap&channel=1?
+src: http://94.190.180.82:83/webcapture.jpg?command=snap&channel=1?
+src: http://77.71.115.20:4433/axis-cgi/jpg/image.cgi?seq=
+src: http://77.71.115.21:7443/axis-cgi/jpg/image.cgi?seq=
+src: http://118.150.169.208:81/webcapture.jpg?command=snap&channel=7?
+src: http://118.150.169.208:81/webcapture.jpg?command=snap&channel=8?
+src: http://118.150.169.208:81/webcapture.jpg?command=snap&channel=9?
+src: http://118.150.169.208:81/webcapture.jpg?command=snap&channel=10?
+src: http://125.229.70.139:81/webcapture.jpg?command=snap&channel=2?
+src: http://125.229.70.139:81/webcapture.jpg?command=snap&channel=3?
+src: http://125.229.70.139:81/webcapture.jpg?command=snap&channel=4?
+src: http://125.229.70.139:81/webcapture.jpg?command=snap&channel=5?
+src: http://125.229.70.139:81/webcapture.jpg?command=snap&channel=6?
+src: http://125.229.70.139:81/webcapture.jpg?command=snap&channel=7?
+src: http://125.229.70.139:81/webcapture.jpg?command=snap&channel=8?
+src: http://125.228.46.13:88/webcapture.jpg?command=snap&channel=2?
+src: http://125.228.46.13:88/webcapture.jpg?command=snap&channel=3?
+src: http://125.228.46.13:88/webcapture.jpg?command=snap&channel=4?
+src: http://114.32.159.18:88/webcapture.jpg?command=snap&channel=2?
+http://125.228.46.13:88/webcapture.jpg?command=snap&channel=2? : ETIMEDOUT
+http://125.228.46.13:88/webcapture.jpg?command=snap&channel=3? : ETIMEDOUT
+http://125.228.46.13:88/webcapture.jpg?command=snap&channel=4? : ETIMEDOUT
+src: http://5.53.241.167:1080/webcapture.jpg?command=snap&channel=1?
+http://5.53.241.167:1080/webcapture.jpg?command=snap&channel=1? : ESOCKETTIMEDOUT
+src: http://94.190.180.82:81/webcapture.jpg?command=snap&channel=1?
+src: http://185.240.145.219:55555/webcapture.jpg?command=snap&channel=2?
+src: http://94.190.180.82:84/webcapture.jpg?command=snap&channel=1?
+src: http://77.71.47.83:7000/webcapture.jpg?command=snap&channel=1?
+src: http://77.71.115.20:7443/axis-cgi/jpg/image.cgi?seq=
+src: http://5.53.241.167:1080/webcapture.jpg?command=snap&channel=1?
+src: http://185.240.145.219:55555/webcapture.jpg?command=snap&channel=3?
+src: http://185.240.145.219:55555/webcapture.jpg?command=snap&channel=1?
+src: http://94.190.180.82:85/webcapture.jpg?command=snap&channel=1?
+src: http://94.190.180.82:82/webcapture.jpg?command=snap&channel=1?
+src: http://46.254.128.150/webcapture.jpg?command=snap&channel=1?
+src: http://84.43.129.237/webcapture.jpg?command=snap&channel=1?
+src: http://94.190.180.82:83/webcapture.jpg?command=snap&channel=1?
+src: http://77.71.115.20:4433/axis-cgi/jpg/image.cgi?seq=
+src: http://77.71.115.21:7443/axis-cgi/jpg/image.cgi?seq=
+http://5.53.241.167:1080/webcapture.jpg?command=snap&channel=1? : ESOCKETTIMEDOUT
+stream: http://77.71.115.20:4433/mjpg/video.mjpg
+Streaming to client closed
+src: http://185.240.145.219:55555/webcapture.jpg?command=snap&channel=3?
+src: http://77.71.47.83:7000/webcapture.jpg?command=snap&channel=1?
+src: http://94.190.180.82:84/webcapture.jpg?command=snap&channel=1?
+src: http://185.240.145.219:55555/webcapture.jpg?command=snap&channel=2?
+src: http://5.53.241.167:1080/webcapture.jpg?command=snap&channel=1?
+src: http://94.190.180.82:81/webcapture.jpg?command=snap&channel=1?
+src: http://94.190.180.82:85/webcapture.jpg?command=snap&channel=1?
+src: http://77.71.115.20:7443/axis-cgi/jpg/image.cgi?seq=
+src: http://185.240.145.219:55555/webcapture.jpg?command=snap&channel=1?
+src: http://94.190.180.82:82/webcapture.jpg?command=snap&channel=1?
+src: http://46.254.128.150/webcapture.jpg?command=snap&channel=1?
+src: http://84.43.129.237/webcapture.jpg?command=snap&channel=1?
+src: http://94.190.180.82:83/webcapture.jpg?command=snap&channel=1?
+src: http://77.71.115.20:4433/axis-cgi/jpg/image.cgi?seq=
+src: http://77.71.115.21:7443/axis-cgi/jpg/image.cgi?seq=
+stream: http://77.71.115.20:7443/mjpg/video.mjpg
+Streaming to client closed
+stream: http://77.71.115.21:7443/mjpg/video.mjpg
+Streaming to client closed
+Server started at port:  8091
+Server started at port:  8091
+Server started at port:  8091
+Server started at port:  8091
+Server started at port:  8091
+Server started at port:  8091
+Server started at port:  8091
+Server started at port:  8091
+src: http://180.182.153.10:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://61.40.19.170:8086/webcapture.jpg?command=snap&channel=1?
+src: http://183.98.10.17:8083/webcapture.jpg?command=snap&channel=1?
+src: http://125.179.74.210:8000/webcapture.jpg?command=snap&channel=1?
+src: http://61.72.23.196:8082/webcapture.jpg?command=snap&channel=1?
+src: http://61.40.19.170:8082/webcapture.jpg?command=snap&channel=1?
+src: http://58.142.96.245:5000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://116.255.84.168:8000/webcapture.jpg?command=snap&channel=1?
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=1?
+src: http://43.230.196.158/webcapture.jpg?command=snap&channel=1?
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=4?
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=5?
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=2?
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=3?
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=6?
+http://117.247.172.103/webcapture.jpg?command=snap&channel=1? : ETIMEDOUT
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=7?
+http://117.247.172.103/webcapture.jpg?command=snap&channel=4? : ETIMEDOUT
+http://117.247.172.103/webcapture.jpg?command=snap&channel=5? : ETIMEDOUT
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=8?
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=9?
+http://117.247.172.103/webcapture.jpg?command=snap&channel=2? : ETIMEDOUT
+http://117.247.172.103/webcapture.jpg?command=snap&channel=3? : ETIMEDOUT
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=10?
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=11?
+http://117.247.172.103/webcapture.jpg?command=snap&channel=6? : ETIMEDOUT
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=12?
+http://117.247.172.103/webcapture.jpg?command=snap&channel=7? : ETIMEDOUT
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=13?
+http://117.247.172.103/webcapture.jpg?command=snap&channel=8? : ETIMEDOUT
+http://117.247.172.103/webcapture.jpg?command=snap&channel=9? : ETIMEDOUT
+src: http://117.247.172.103/webcapture.jpg?command=snap&channel=14?
+http://117.247.172.103/webcapture.jpg?command=snap&channel=10? : ETIMEDOUT
+http://117.247.172.103/webcapture.jpg?command=snap&channel=11? : ETIMEDOUT
+http://117.247.172.103/webcapture.jpg?command=snap&channel=12? : ETIMEDOUT
+src: http://91.151.111.152:8080/axis-cgi/jpg/image.cgi?seq=
+http://117.247.172.103/webcapture.jpg?command=snap&channel=13? : ETIMEDOUT
+http://117.247.172.103/webcapture.jpg?command=snap&channel=14? : ETIMEDOUT
+http://91.151.111.152:8080/axis-cgi/jpg/image.cgi?seq= : ESOCKETTIMEDOUT
