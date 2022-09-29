@@ -30,15 +30,15 @@ function server() {
 		
 		//await delay(10000);
 		
-		if (req.query.src.substr(0, 4) !== 'http') {
-            const hmac      = {value: req.query.hmac.replaceAll('%2B', '+')}
-		    ,     encrypted = req.query.src.replaceAll('%2B', '+');
+		//if (req.query.src.substr(0, 4) !== 'http') {
+           // const hmac      = {value: req.query.hmac.replaceAll('%2B', '+')}
+		   // ,     encrypted = req.query.src.replaceAll('%2B', '+');
 			
-		    src = await decrypt(method, secret, encrypted, hmac);
-		}
-		else {
+		   // src = await decrypt(method, secret, encrypted, hmac);
+		//}
+		//else {
 			src = req.query.src;
-		}
+		//}
 
         //console.log("hmac value: " + hmac.value);
         //console.log("Encrypted: " + encrypted);
